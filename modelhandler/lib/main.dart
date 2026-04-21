@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:modelhandler/screen/chat_screen%20(1).dart';
 import 'package:modelhandler/screen/login_screen.dart';
 import 'package:modelhandler/screen/product_screen.dart';
 import 'package:modelhandler/screen/user_screen.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
        
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: LoginPage(),
+      home: ChatPage(username: 'testuser2'),
     );
   }
 }
